@@ -9,8 +9,8 @@
 #import "abroadViewController.h"
 #import "abroadMessage.h"
 #import "MessageTableViewCell.h"
-#import "infoViewController.h"
-#define API_HTTP @"http://apis.haoservice.com/lifeservice/travel/scenery"
+#import "contentViewController.h"
+#define API_HTTP @"http://apis.haoservice.com/lifeservice/travel/GetScenery"
 #define API_KEY @"fcb2d816a1684edcbe2ad0433304932"
 
 @interface abroadViewController ()
@@ -64,9 +64,7 @@
     //获取AFnetworking框架单例对象
     //组合参数
     
-    NSDictionary *dict = @{@"cid":@0,
-                           @"pid":@31,
-                           @"page":@1,
+    NSDictionary *dict = @{@"sid":@191872,
                            @"key":API_KEY
              };
     //[manager.requestSerializer setValue:API_KEY forHTTPHeaderField:@"apikey"];
@@ -87,13 +85,14 @@
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSUserDefaults * def = [NSUserDefaults standardUserDefaults];
+    NSUserDefaults * contantDef = [NSUserDefaults standardUserDefaults];
     int index = indexPath.row;
-    NSString * url = [_AdataArray[index] valueForKey:@"ProductDetailURL"];
-    [def setValue:url forKey:@"infoAUrl"];
-    NSLog(@"---------------------%@",url);
+    NSString *content = [_AdataArray[index] valueForKey:@"referral"];
+    NSString *image=[_AdataArray[index]valueForKey:@"img"];
+    [contantDef setValue:content forKey:@"infoContant"];
+    [contantDef setValue:image forKey:@"img"];
     UIStoryboard * story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    infoViewController * nextView = [story instantiateViewControllerWithIdentifier:@"IContent"];
+    contentViewController * nextView = [story instantiateViewControllerWithIdentifier:@"content"];
     [self presentViewController:nextView animated:YES completion:nil];
     
 }

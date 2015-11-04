@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface abroadMessage : NSObject
-@property (strong, nonatomic)  NSString *imgurl;
+@property (strong, nonatomic)  NSString *img;
 @property (strong, nonatomic)  NSString *title;
-@property (strong, nonatomic)  NSString *address;
+@property (strong, nonatomic)  NSString *referral;
 @end

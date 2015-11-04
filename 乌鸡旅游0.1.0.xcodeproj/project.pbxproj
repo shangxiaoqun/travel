@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2412DE01BE9D238001B0667 /* contentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2412DDF1BE9D238001B0667 /* contentViewController.m */; };
 		E2486C3A1BE459D600B2C200 /* domesticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2486C391BE459D600B2C200 /* domesticViewController.m */; };
 		E2486C3D1BE459EB00B2C200 /* abroadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2486C3C1BE459EB00B2C200 /* abroadViewController.m */; };
 		E2486C481BE45EE200B2C200 /* domesticMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2486C471BE45EE200B2C200 /* domesticMessage.m */; };
@@ -57,6 +58,13 @@
 		E29C7E091BE368B300882786 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E29C7DFD1BE368B300882786 /* NSObject+MJProperty.m */; };
 		E29C7E0A1BE368B300882786 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E29C7DFF1BE368B300882786 /* NSString+MJExtension.m */; };
 		E2E3ACED1BE8B2DA00944A30 /* TContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E3ACEC1BE8B2DA00944A30 /* TContentViewController.m */; };
+		ED685D5A1BE9A55C0017CF5E /* PersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED685D551BE9A55C0017CF5E /* PersonInfoViewController.m */; };
+		ED685D5B1BE9A55C0017CF5E /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED685D571BE9A55C0017CF5E /* PersonViewController.m */; };
+		ED685D5C1BE9A55C0017CF5E /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED685D591BE9A55C0017CF5E /* RegisterViewController.m */; };
+		ED685D621BE9A58B0017CF5E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED685D5F1BE9A58B0017CF5E /* WebViewController.m */; };
+		ED685D631BE9A58B0017CF5E /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED685D611BE9A58B0017CF5E /* WelcomeViewController.m */; };
+		ED685D681BE9A6CF0017CF5E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ED685D671BE9A6CF0017CF5E /* MBProgressHUD.m */; };
+		ED685D6B1BE9B1100017CF5E /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED685D6A1BE9B1100017CF5E /* LaunchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +85,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2412DDE1BE9D238001B0667 /* contentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentViewController.h; sourceTree = "<group>"; };
+		E2412DDF1BE9D238001B0667 /* contentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contentViewController.m; sourceTree = "<group>"; };
 		E2486C381BE459D600B2C200 /* domesticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = domesticViewController.h; sourceTree = "<group>"; };
 		E2486C391BE459D600B2C200 /* domesticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = domesticViewController.m; sourceTree = "<group>"; };
 		E2486C3B1BE459EB00B2C200 /* abroadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abroadViewController.h; sourceTree = "<group>"; };
@@ -178,6 +188,20 @@
 		E29C7DFF1BE368B300882786 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
 		E2E3ACEB1BE8B2DA00944A30 /* TContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TContentViewController.h; sourceTree = "<group>"; };
 		E2E3ACEC1BE8B2DA00944A30 /* TContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TContentViewController.m; sourceTree = "<group>"; };
+		ED685D541BE9A55C0017CF5E /* PersonInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonInfoViewController.h; sourceTree = "<group>"; };
+		ED685D551BE9A55C0017CF5E /* PersonInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonInfoViewController.m; sourceTree = "<group>"; };
+		ED685D561BE9A55C0017CF5E /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		ED685D571BE9A55C0017CF5E /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		ED685D581BE9A55C0017CF5E /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		ED685D591BE9A55C0017CF5E /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		ED685D5E1BE9A58B0017CF5E /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		ED685D5F1BE9A58B0017CF5E /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		ED685D601BE9A58B0017CF5E /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		ED685D611BE9A58B0017CF5E /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		ED685D661BE9A6CF0017CF5E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		ED685D671BE9A6CF0017CF5E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		ED685D691BE9B1100017CF5E /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		ED685D6A1BE9B1100017CF5E /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +267,10 @@
 		E27BAC311BE1DF7F003C9D31 = {
 			isa = PBXGroup;
 			children = (
+				ED685D691BE9B1100017CF5E /* LaunchViewController.h */,
+				ED685D6A1BE9B1100017CF5E /* LaunchViewController.m */,
+				ED685D5D1BE9A5720017CF5E /* P */,
+				ED685D531BE9A5460017CF5E /* D */,
 				E2486C441BE45E8E00B2C200 /* M */,
 				E2486C451BE45E9600B2C200 /* V */,
 				E2486C3E1BE45D4400B2C200 /* C */,
@@ -319,6 +347,8 @@
 				E2486C3C1BE459EB00B2C200 /* abroadViewController.m */,
 				E28766AE1BE8F5A000280A27 /* infoViewController.h */,
 				E28766AF1BE8F5A000280A27 /* infoViewController.m */,
+				E2412DDE1BE9D238001B0667 /* contentViewController.h */,
+				E2412DDF1BE9D238001B0667 /* contentViewController.m */,
 			);
 			name = recommend;
 			sourceTree = "<group>";
@@ -376,6 +406,7 @@
 		E29C7DE71BE3682A00882786 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				ED685D641BE9A6B20017CF5E /* MBProgressHUD */,
 				E29C7DE81BE368B300882786 /* MJExtension */,
 				E29C7DAF1BE3670900882786 /* AFNetworking */,
 				E29C7DC31BE3670900882786 /* UIKit+AFNetworking */,
@@ -422,6 +453,47 @@
 				E2E3ACEC1BE8B2DA00944A30 /* TContentViewController.m */,
 			);
 			name = tactic;
+			sourceTree = "<group>";
+		};
+		ED685D531BE9A5460017CF5E /* D */ = {
+			isa = PBXGroup;
+			children = (
+				ED685D601BE9A58B0017CF5E /* WelcomeViewController.h */,
+				ED685D611BE9A58B0017CF5E /* WelcomeViewController.m */,
+				ED685D581BE9A55C0017CF5E /* RegisterViewController.h */,
+				ED685D591BE9A55C0017CF5E /* RegisterViewController.m */,
+			);
+			name = D;
+			sourceTree = "<group>";
+		};
+		ED685D5D1BE9A5720017CF5E /* P */ = {
+			isa = PBXGroup;
+			children = (
+				ED685D5E1BE9A58B0017CF5E /* WebViewController.h */,
+				ED685D5F1BE9A58B0017CF5E /* WebViewController.m */,
+				ED685D541BE9A55C0017CF5E /* PersonInfoViewController.h */,
+				ED685D551BE9A55C0017CF5E /* PersonInfoViewController.m */,
+				ED685D561BE9A55C0017CF5E /* PersonViewController.h */,
+				ED685D571BE9A55C0017CF5E /* PersonViewController.m */,
+			);
+			name = P;
+			sourceTree = "<group>";
+		};
+		ED685D641BE9A6B20017CF5E /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				ED685D651BE9A6CF0017CF5E /* MBProgressHUD */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		ED685D651BE9A6CF0017CF5E /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				ED685D661BE9A6CF0017CF5E /* MBProgressHUD.h */,
+				ED685D671BE9A6CF0017CF5E /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -556,16 +628,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED685D621BE9A58B0017CF5E /* WebViewController.m in Sources */,
 				E2486C4B1BE45EFC00B2C200 /* abroadMessage.m in Sources */,
 				E29C7DE41BE3670900882786 /* UIRefreshControl+AFNetworking.m in Sources */,
+				ED685D6B1BE9B1100017CF5E /* LaunchViewController.m in Sources */,
 				E29C7DDA1BE3670900882786 /* AFURLConnectionOperation.m in Sources */,
 				E27BAC451BE1DF80003C9D31 /* ViewController.m in Sources */,
 				E29C7E0A1BE368B300882786 /* NSString+MJExtension.m in Sources */,
+				E2412DE01BE9D238001B0667 /* contentViewController.m in Sources */,
+				ED685D681BE9A6CF0017CF5E /* MBProgressHUD.m in Sources */,
+				ED685D5B1BE9A55C0017CF5E /* PersonViewController.m in Sources */,
 				E29C7E061BE368B300882786 /* NSObject+MJClass.m in Sources */,
 				E29C7E081BE368B300882786 /* NSObject+MJKeyValue.m in Sources */,
 				E29C7E021BE368B300882786 /* MJFoundation.m in Sources */,
 				E29C7DE31BE3670900882786 /* UIProgressView+AFNetworking.m in Sources */,
 				E2486C3A1BE459D600B2C200 /* domesticViewController.m in Sources */,
+				ED685D5C1BE9A55C0017CF5E /* RegisterViewController.m in Sources */,
 				E29C7DE01BE3670900882786 /* UIAlertView+AFNetworking.m in Sources */,
 				E27BAC421BE1DF80003C9D31 /* AppDelegate.m in Sources */,
 				E27E41431BE6FC720080D999 /* tacticCollectionViewCell.m in Sources */,
@@ -582,6 +660,7 @@
 				E29C7DDE1BE3670900882786 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				E2486C481BE45EE200B2C200 /* domesticMessage.m in Sources */,
 				E29C7E051BE368B300882786 /* MJPropertyType.m in Sources */,
+				ED685D631BE9A58B0017CF5E /* WelcomeViewController.m in Sources */,
 				E2486C521BE465B300B2C200 /* MessageTableViewCell.m in Sources */,
 				E29C7DD91BE3670900882786 /* AFSecurityPolicy.m in Sources */,
 				E29C7E011BE368B300882786 /* MJExtensionConst.m in Sources */,
@@ -599,6 +678,7 @@
 				E29C7DE21BE3670900882786 /* UIImageView+AFNetworking.m in Sources */,
 				E29C7DD61BE3670900882786 /* AFHTTPRequestOperationManager.m in Sources */,
 				E27E414A1BE7000E0080D999 /* TacticViewController.m in Sources */,
+				ED685D5A1BE9A55C0017CF5E /* PersonInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

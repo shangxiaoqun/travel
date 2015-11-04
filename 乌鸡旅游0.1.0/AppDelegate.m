@@ -16,6 +16,35 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //创建一个可变数组用于存放图片
+    NSMutableArray *muArr = [NSMutableArray array];
+    //循环拿图片
+    for (int i = 1 ; i<5; i++) {
+        //组合出图片的名字
+        NSString *imgName =
+        [NSString stringWithFormat:@"m%i",i];
+        //创建图片
+        UIImage *image = [UIImage imageNamed:imgName];
+        //添加到图片的数组
+        [muArr addObject:image];
+
+     [NSThread sleepForTimeInterval:5.0];
+        UIImageView *background = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 320, 548)];
+    
+        //图片组根据可变数组赋值
+        background.animationImages = muArr;
+        //动画的执行次数->0无限次
+        background.animationRepeatCount = 0;
+        //动画执行的时间=0.1*总的图片数
+        background.animationDuration = 0.1*6;
+        //开始动画
+        [background startAnimating];
+        [self.window addSubview:background];
+        
+
+    
+    }
+
     // Override point for customization after application launch.
     return YES;
 }

@@ -46,7 +46,11 @@
 
 
 - (IBAction)magicBtn:(UIButton *)sender {
-    [self newViewDidShow];   // show the newView when click
+
+
+
+    [self newViewDidShow];
+    // show the newView when click
     [self newViewBeginAction];
     
 }

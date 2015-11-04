@@ -14,6 +14,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *nameForUser;
 
 - (IBAction)magicBtn:(UIButton *)sender;
-- (IBAction)didHideView:(id)sender;
+//- (IBAction)didHideView:(id)sender;
 
 @end

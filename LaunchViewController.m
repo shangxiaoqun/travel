@@ -1,27 +1,22 @@
 //
-//  infoViewController.m
+//  LaunchViewController.m
 //  乌鸡旅游0.1.0
 //
-//  Created by 尚笑群 on 15/11/3.
+//  Created by 郝慧 on 15/11/4.
 //  Copyright © 2015年 哇酷. All rights reserved.
 //
 
-#import "infoViewController.h"
+#import "LaunchViewController.h"
 
-@interface infoViewController ()
+@interface LaunchViewController ()
 
 @end
 
-@implementation infoViewController
+@implementation LaunchViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSUserDefaults * def = [NSUserDefaults standardUserDefaults];
-    NSString *url = [def valueForKey:@"infoUrl"];
-    NSURLRequest * request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
-    [_infoView loadRequest:request];
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,10 +34,4 @@
 }
 */
 
-- (IBAction)closeInfoView:(id)sender {
-    
-    [self dismissViewControllerAnimated:YES completion:^{
-        NSLog(@"close");
-    }];
-}
 @end

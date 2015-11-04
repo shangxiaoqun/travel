@@ -771,7 +771,6 @@
         <!--Content View Controller-->
         <scene sceneID="RRa-yF-4wr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wx8-zO-f3C" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="content" id="TjI-yj-1GX" customClass="contentViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Tw9-qr-QCc"/>
@@ -820,6 +819,7 @@
                         <outlet property="textView" destination="UgV-eH-Hpz" id="Jkh-SB-tNH"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wx8-zO-f3C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1431" y="-1740"/>
         </scene>

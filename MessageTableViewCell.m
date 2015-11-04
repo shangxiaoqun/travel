@@ -45,10 +45,10 @@
 {
     //初始化国内景点数据
     _AMessage = AMessage;
-    NSURL *url=[NSURL URLWithString:AMessage.imgurl];
+    NSURL *url=[NSURL URLWithString:AMessage.img];
     [self.ImageView setImageWithURL:url];
     self.titleLabel.text = [AMessage title];
-    self.contentLabel.text =[AMessage address];
+    self.contentLabel.text =[AMessage referral];
 }
 
 
